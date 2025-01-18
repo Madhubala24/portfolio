@@ -15,7 +15,7 @@ export default function GamifiedPortfolio() {
   const personalInfo = {
     name: "Madhubala Rajadurai",
     title: "Senior Blockchain Developer & React.js Expert",
-    bio: "A passionate blockchain and React.js developer with 2.9 years of experience, specializing in creating smart contracts, DeFi solutions, and dynamic web applications. Experienced in building innovative solutions across various blockchain platforms and creating seamless user experiences.",
+    bio: "A passionate blockchain and React.js developer with 2.10 years of experience, specializing in creating smart contracts, DeFi solutions, and dynamic web applications. Experienced in building innovative solutions across various blockchain platforms and creating seamless user experiences.",
     contact: {
       linkedin: "https://www.linkedin.com/in/madhubala-r-680239201/",
       email: "mb771966@gmail.com",
@@ -209,7 +209,7 @@ export default function GamifiedPortfolio() {
         />
       ))}
 
-      <div className="fixed top-4 right-4 flex items-center space-x-4">
+      <div className="fixed top-2 right-2 flex items-center space-x-4">
         <div className="bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 flex items-center space-x-2">
           <Trophy className="w-5 h-5 text-yellow-400" />
           <span>{score} XP</span>
@@ -268,7 +268,7 @@ export default function GamifiedPortfolio() {
                     <Component className="w-8 h-8 mr-3 text-purple-400" />
                     React.js Challenge
                   </h2>
-                  <p className="text-gray-300 mb-4">Discover my React.js expertise in building modern web applications.</p>
+                  <p className="text-gray-300 mb-4">Discover my React.js expertise in building modern web applications with Redux and Hooks.</p>
                   <div className="flex items-center text-purple-300">
                     <Gamepad2 className="w-5 h-5 mr-2" />
                     <span>Click to begin quest</span>
@@ -301,6 +301,12 @@ export default function GamifiedPortfolio() {
                 <Phone className="w-6 h-6" />
                 <span>Phone</span>
               </a>
+              {/* <button
+    onClick={() => (window.location.href = '/about')}
+    className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all flex items-center space-x-2"
+  >
+    About
+  </button> */}
             </div>
           </>
         ) : (
